@@ -298,7 +298,7 @@ p:nth-of-type(1) {
     
 .work{
     float: left;
-    width: 1360px;
+    width: 1370px;
     padding: 10px;
     border: 1px solid #fff;
     border-width: 1px;
@@ -317,20 +317,11 @@ p:nth-of-type(1) {
     }
     
 .inner-box{
-    float: left;
-    width: 1340px;
-    margin-top: 15px;
-    border: 1px solid #fff;
-    border-width: 1px;
-    background-color: black;
-    padding: 10px 10px 10px 10px;
+    
 }
     
-.inner-box:hover{
-        background-color: white;
-        border: 1px solid #000;
-        border-width: 1px;
-    }
+
+*/
 
 .feed{
     float: left;
@@ -412,7 +403,7 @@ p:nth-of-type(1) {
 
 .news{
     float: left;
-    width: 1360px;
+    width: 1370px;
     height: 130px;
     padding: 10px;
     border: 1px solid #fff;
@@ -501,14 +492,12 @@ p:nth-of-type(1) {
     
 .home{
     float: left;
-/*    width: 160px;*/
     padding: 10px;
     padding-top: 5px;
     height: 50px;
     border: 1px solid #fff;
     margin-top: 10px;
     margin-bottom: 10px;
-/*    margin-right: 1400px;*/
     background-color: white;
     margin-left: 10px;
     }
@@ -649,7 +638,7 @@ p:nth-of-type(1) {
     
 .footer-line{
     margin-top: 20px;
-    width: 1380px;
+    width: 1390px;
     float: left;
     margin-bottom: 5px;
     border: 0.5px solid #fff;
@@ -664,16 +653,18 @@ p:nth-of-type(1) {
     
 .section{
     float: left;
-    width: 305px;
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-bottom: 10px;
+    width: 310px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
     }
     
     
 .exhibition-line{
     margin-top: 30px;
-    width: 1335px;
+    margin-bottom: 20px;
+    width: 1320px;
     float: left;
     border: 0.5px solid #000;
     }
@@ -700,6 +691,21 @@ p:nth-of-type(1) {
     opacity: 1;
 }
     
+.rb{
+    float: right;
+    padding: 10px;
+    padding-top: 5px;
+    height: 50px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+
+.rb:hover{
+        background-color: white;
+    }
+    
 .button{
         width: 160px;
     }
@@ -719,5 +725,46 @@ p:nth-of-type(1) {
 .m3{
         margin-top: -88px;
     }
+
+    
+.margin{
+        margin-bottom: 230px;
+    }
+    
+    
+    .title-height{
+        height: 35px;
+    }
+
+.exhibition {
+    float: left;
+    width: 1320px;
+    padding: 10px;
+    padding-top: 5px;
+    border: 1px solid #fff;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.exhibition:hover{
+    background-color: white;
+        border: 1px solid #000;
+}
+    
+    
+.press{
+    width: 620px;
+    margin-bottom: 20px;
+    }
+    
+    .fl{
+        float: left;
+        
+    }
+
+    
     
 }
